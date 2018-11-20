@@ -1,0 +1,15 @@
+<view>
+  <image class='indexImg' src='/images/campus.jpg' mode='aspectFit'></image>
+</view>
+<!-- <view>
+  <input class='keyboard-input' value='{{keyboardInputValue}}' bindconfirm='submitComment' bindinput='bindCommentInput' placeholder='说点什么吧......'></input>
+  <view class='submit-btn' catchtap='submitComment'>发送</view>
+</view> -->
+<view class='input-box'>
+    <view class='send-msg-box'>
+      <view class='input-item'>
+        <input class='input keyboard-input' value='{{keyboardInputValue}}' bindconfirm='submit' bindinput='bindCommentInput' placeholder='输入问题......'></input>
+      </view>
+      <view class='submit-btn' catchtap='submit'>发送</view>
+    </view>
+</view>

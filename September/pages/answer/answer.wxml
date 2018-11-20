@@ -1,0 +1,16 @@
+<!--pages/answer/answer.wxml-->
+<view class='container'>
+  <image class='Img' src='/images/campus.jpg' mode='aspectFit'></image>
+  <view class='answer-box'>
+     <scroll-view scroll-y="true"  class="his" wx:for="{{answers}}"  wx:for-item="items" wx:key="answers">
+      <view class='answer'>
+        <block wx:for="{{items}}" wx:for-item="item" wx:for-index="idx" wx:key="items">
+          <view class='content'>
+            <text wx:if="{{item.key=='answer'}}">{{item.value}}</text>
+            <text wx:else>{{item.key}}:{{item.value}}</text>
+          </view>
+        </block>
+      </view>
+    </scroll-view>
+  </view>
+</view>

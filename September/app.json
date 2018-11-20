@@ -1,0 +1,12 @@
+{
+  "pages":[
+    "pages/question/question",
+    "pages/answer/answer"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#4a6141",
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "南师大本科生自助招生咨询"
+  }
+}

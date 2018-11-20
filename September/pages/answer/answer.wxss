@@ -1,0 +1,52 @@
+/* pages/answer/answer.wxss */
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.Img{
+  width: 100%;
+  margin-top: 60rpx;
+}
+
+.his{
+  padding:3px;
+  margin:3px;
+  font-size: 15px;
+  word-break: break-all;
+}
+
+.answer-box{
+  display: flex;
+  flex-direction: column;
+  max-height:550rpx;
+  height:auto;
+  overflow:scroll;
+  border: 1px solid;
+  border-radius: 19rpx;
+  margin-top: 100rpx;
+  margin-left: 10rpx;
+  margin-right: 10rpx;
+  background-color: #fff;
+  line-height: 150%;
+}
+
+.answer{
+  display: flex;
+  flex-direction: row;
+  font-size: 16px;
+  width: auto;
+  flex-wrap:wrap;
+  line-height: 150%;
+  padding-bottom: 15rpx;
+}
+
+.content{
+  padding-bottom:10rpx;
+  padding-left: 20rpx;
+}
+
+page{
+  background-color: #EAE8E8;
+}
